@@ -1,0 +1,226 @@
+body, html {
+    font-size: 13px;
+    color: #222;
+    font-family: Arial;
+}
+
+.color-left {
+    color: #5f6368;
+}
+
+.color-right {
+    color: rgba(0,0,0,0.87);
+}
+
+nav {
+    margin-top: 20px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.float-right {
+    float: right;
+    position: relative;
+    right: 115px;
+}
+
+.group {
+    margin-right: 100px;
+}
+
+.logo {
+    height: 233px;
+    text-align: center;
+    margin-top: 123px;
+}
+
+.logo-resize {
+    height: 200px;
+    width: 272px;
+    padding-top: 109px;
+    position: relative;
+    bottom: 68px;
+}
+
+.input {
+    height: 52px;
+    width: 1139px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar {
+    height: 44px;
+    width: 582px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 73px;
+    border: solid grey 1px;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 46px;
+   
+}
+
+.searchbar:hover {
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.buttons {
+    height: 88px;
+    width: 571px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 61px;
+}
+
+.button-one {
+    height: 36px;
+    width: 127px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+.button-one:hover {
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+}
+
+.button-two:hover {
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+}
+
+.button-two {
+    height: 36px;
+    width: 142px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+.link {
+    height: 48px;
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+}
+
+.adjust-link {
+    position: relative;
+    bottom: 23px;
+    font-size: small;
+    color: #1a0dab;
+}
+
+.adjust-link:hover {
+    text-decoration: underline;
+}
+
+.adjust-link:visited {
+    color: #609;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+.footer-links-left {
+    display: inline-block;
+    float: left;
+    padding-left: 0;
+}
+
+.footer-links-right {
+    display: inline-block;
+    float: right;
+    padding-left: 0;
+}
+
+
+.bottom-link-one {
+    width: 91px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 27px;
+}
+
+.bottom-link-two {
+    width: 79px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 27px;
+}
+
+.bottom-link-three {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 27px;
+}
+
+.bottom-link-four {
+    width: 74px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-right: 27px;
+}
+
+.bottom-link-five {
+    width: 62px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-right: 27px;
+}
+
+.bottom-link-six {
+    width: 69px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    padding-right: 27px;
+}
+
+.active a:active {
+    color: firebrick;
+}
